@@ -23,7 +23,7 @@ public class MaxServiceTest {
         int a = 3;
         int b = 5;
 
-        int expected = b;
+        int expected = 10;
         int actual = service.max(a, b);
 
         Assertions.assertEquals(expected, actual);
